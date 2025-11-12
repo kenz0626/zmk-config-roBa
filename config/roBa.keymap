@@ -97,8 +97,8 @@
         NUM {
             bindings = <
 &kp ASTERISK          &kp N7        &kp N8        &kp N9          &kp PLUS                                           &kp EXCLAMATION       &kp AMPERSAND          &kp DOLLAR   &kp MINUS    &kp EQUAL
-&kp SLASH             &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp MINUS  &kp LC(LA(KP_NUMBER_0))      &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LCTRL    &kp PERCENT  &kp ASTERISK
-&mt LEFT_SHIFT EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp COLON  &kp EQUAL                    &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp HASH     &kp BSLH
+&kp SLASH             &kp NUMBER_4  &kp N5        &kp NUMBER_6    &kp MINUS  &kp LC(LA(KP_NUMBER_0))      &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LCTRL    &kp PERCENT  &kp ASTERISK
+&mt LEFT_SHIFT EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp COLON  &kp COMMA                    &kp PIPE   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp HASH     &kp BSLH
 &trans                &kp N0        &kp PERIOD    &kp LANGUAGE_2  &trans     &kp LANG1                    &trans     &trans                                                                 &trans
             >;
         };
