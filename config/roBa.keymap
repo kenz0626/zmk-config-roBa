@@ -46,17 +46,17 @@
 
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <8 9>;
+            key-positions = <20 21>;
         };
 
         single_quotation {
             bindings = <&kp SQT>;
-            key-positions = <20 21>;
+            key-positions = <20 19>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <32 33>;
+            key-positions = <19 18>;
         };
     };
 
