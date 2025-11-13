@@ -41,7 +41,7 @@
 
         escape {
             bindings = <&kp ESCAPE>;
-            key-positions = <11 10>;
+            key-positions = <0 1>;
         };
 
         double_quotation {
