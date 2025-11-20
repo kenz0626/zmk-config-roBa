@@ -91,7 +91,7 @@
 &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &lt 1 SPACE  &kp LEFT_COMMAND      &mt RIGHT_COMMAND BACKSPACE  &lt 1 ENTER                               &kp RIGHT_SHIFT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         number-symbol {
@@ -111,7 +111,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
         };
 
         bluetooth-util {
