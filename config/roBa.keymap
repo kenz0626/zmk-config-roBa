@@ -34,14 +34,6 @@
     input-processors = <&zip_temp_layer MOUSE 700>;
 };
 
-&pointing_listener {
-    input-processors = <
-        // 【1600 CPIを半分（実質800 CPI相当）に落とす場合】
-        &zip_xy_scaler 1 2
-    >;
-};
-
-
 / {
     combos {
         compatible = "zmk,combos";
