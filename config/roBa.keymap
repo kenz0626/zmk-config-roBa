@@ -31,7 +31,10 @@
 };
 
 &mkp_input_listener {
-    input-processors = <&zip_temp_layer MOUSE 700>;
+    input-processors = <
+        &zip_xy_divider 2
+        &zip_temp_layer MOUSE 700
+    >;
 };
 
 / {
